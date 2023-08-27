@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, customer3 , shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -33,22 +33,22 @@ export const products = [
     {
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
-        price: "$200.20",
+        price: "₹ 80,000",
     },
     {
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
-        price: "$210.20",
+        price: "₹ 10,999",
     },
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
-        price: "$220.20",
+        price: "₹ 3,699",
     },
     {
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
-        price: "$230.20",
+        price: "₹ 59,999",
     },
 ];
 
@@ -73,13 +73,19 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
-        rating: 4.5,
+        customerName: 'Akshat',
+        rating: 4.8,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
+        customerName: 'Vaibhav',
+        rating: 5.0,
+        feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL: customer3,
+        customerName: 'Jatin',
         rating: 4.5,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
     }
@@ -111,8 +117,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "akshat@nike.com", link: "mailto:akshat@nike.com" },
+            { name: "+91 9252908070", link: "tel:+919252908070" },
         ],
     },
 ];
