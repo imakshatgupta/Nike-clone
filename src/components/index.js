@@ -1,9 +1,9 @@
 import Button from "./Button.jsx";
-import Nav from "./Nav.jsx/index.js";
-import ShoeCard from "./ShoeCard.jsx/index.js";
-import PopularProductCard from "./PopularProductCard.jsx/index.js";
-import ServiceCard from "./ServiceCard.jsx/index.js";
-import ReviewCard from "./ReviewCard.jsx/index.js";
+import Nav from "./Nav.jsx";
+import ShoeCard from "./ShoeCard.jsx";
+import PopularProductCard from "./PopularProductCard.jsx";
+import ServiceCard from "./ServiceCard.jsx";
+import ReviewCard from "./ReviewCard.jsx";
 
 export {
     Button,
